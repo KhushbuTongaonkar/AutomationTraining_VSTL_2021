@@ -1,10 +1,9 @@
-package com.inputform;
+package simpleformvalidation;
 
 import java.io.FileInputStream;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -69,7 +68,7 @@ public class InputFieldValidationPgm {
 	public void tc1selectDropDownHeaderandDropdownValuefromTopupMenu(String strDropdownName, String strDropdownValue) {
 		this.selectDropdownHeaderOnTopupMenu(strDropdownName);
 		this.selectDropdownValueFromDropdownHeaderTopupMenu(strDropdownValue);
-		this.verifyInputFormPageisOpened();
+		
 	}
 
 	public void verifyInputfielddemoavailableonInputFormPage(String strInputFielDemodHeader) {
